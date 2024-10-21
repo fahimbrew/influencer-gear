@@ -1,0 +1,45 @@
+/* small size devices */
+
+@media screen and (max-width:576px) {
+
+    .nav-section,
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .hero-profile-image {
+        max-width: 100%;
+    }
+
+    .navbar-main {
+        margin: 0;
+    }
+
+    .hero-description h1 {
+        color: rgb(58, 58, 58);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .hero-description {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* medium size devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .hero,
+    .nav-section {
+        flex-direction: column-reverse;
+    }
+}

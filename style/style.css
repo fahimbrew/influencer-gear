@@ -1,0 +1,102 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+.p-common {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+.btn-primary {
+    background-color: rgb(224, 44, 109);
+    /* width: 150px; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Nav bar styles */
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.navbar-main {
+    padding: 25px;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar>li {
+    list-style-type: none;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: rgb(58, 58, 58);
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.hero-description {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.hero-description h1 {
+    color: rgb(58, 58, 58);
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.hero-profile-image {
+    width: 50%;
+    background-image: url("../images/Circle\ design.svg");
+    background-position: center;
+
+
+}
+
+.hero-profile-image img {
+    width: 100%;
+    object-fit: cover;
+}
