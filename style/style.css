@@ -200,3 +200,33 @@
     /* max-width: calc(100% - 20px); */
     padding: 20px;
 }
+
+
+
+
+/* footer styles */
+.footer {
+    background-color: rgb(27, 27, 28);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-footer {
+    /* width: 30%;
+    margin: 30px auto 0;
+    padding: 60px; */
+    padding: 60px;
+    text-align: center;
+}
+
+.last-footer a {
+    color: white;
+    padding-left: 10px;
+}
+
+
+::selection {
+    background-color: rgb(182, 208, 209);
+}
