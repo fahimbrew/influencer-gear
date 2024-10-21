@@ -25,6 +25,22 @@
 
     .hero-description {
         max-width: 100%;
+        text-align: center;
+    }
+
+    .logo-container {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
+        padding: 0px;
+
+    }
+
+    .card-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-box-footer {
+        display: none;
     }
 }
 
@@ -41,5 +57,25 @@
     .hero,
     .nav-section {
         flex-direction: column-reverse;
+    }
+
+    .logo-container {
+        grid-template-columns: repeat(3, 2fr);
+        margin: 0 auto;
+        padding: 0px;
+        justify-items: center;
+
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    .card-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-box-footer {
+        display: none;
     }
 }
