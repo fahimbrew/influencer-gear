@@ -181,3 +181,22 @@
 
 
 }
+
+/* featured products styling */
+.featured-products {}
+
+.featured-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.featured-image {
+    /* max-width: 50%; */
+}
+
+.featured-description {
+    /* max-width: calc(100% - 20px); */
+    padding: 20px;
+}

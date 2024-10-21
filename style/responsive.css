@@ -42,6 +42,15 @@
     .card-box-footer {
         display: none;
     }
+
+    .featured-container {
+        flex-direction: column;
+    }
+
+    .featured-image img {
+        width: 100%;
+        /* margin: 0 auto; */
+    }
 }
 
 
